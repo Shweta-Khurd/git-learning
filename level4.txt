@@ -1,5 +1,7 @@
 git restore . --> Restore all files that are saved
 git restore filename.exe --> Restore particular files that is saved
 
-git restore --staged . --> Retreat all files that are saved in staging area
-git restore --staged filename.exe --> Retreat particular file that is saved in staging area
+git restore --staged . --> Retreat all files that are saved in staging area to working directory 
+git restore --staged filename.exe --> Retreat particular file that is saved in staging area to working directory 
+
+git restore --worktree --> Restore the working tree version of one or more files from the staging area
